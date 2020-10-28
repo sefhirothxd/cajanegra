@@ -39,6 +39,7 @@ const merchandising = () => {
 					</section>
 					<section>
 						<ul className="grid grid-cols-2 md:grid-cols-1">
+							<li className="bg-dark-100 py-16 md:py-64 px-16 "></li>
 							<li className="bg-white pt-16 pb-32 px-16 xl:px-10 xs:pb-20 lg:px-5 flex justify-center">
 								<article className="text-center w-8/12 sm:w-full">
 									<h3 className="text-black font-Rock text-2xl mb-12 xl:text-lg lg:text-base md:text-xl xs:text-base">
@@ -56,8 +57,6 @@ const merchandising = () => {
 									</p>
 								</article>
 							</li>
-							<li className="bg-dark-100 py-16 md:py-64 px-16 "></li>
-							<li className="bg-dark-100 py-16 md:py-64 px-16 "></li>
 							<li className="bg-white pb-24 pt-32 xs:pt-20 px-16 xl:px-10 lg:px-5 flex justify-center">
 								<article className="text-center w-8/12 sm:w-full">
 									<h3 className="text-black font-Rock text-2xl mb-20 xs:mb-12 xl:text-lg lg:text-base md:text-xl xs:text-base">
@@ -71,6 +70,8 @@ const merchandising = () => {
 									</p>
 								</article>
 							</li>
+							<li className="bg-dark-100 py-16 md:py-64 px-16 "></li>
+							<li className="bg-dark-100 py-16 md:py-64 px-16 "></li>
 							<li className="bg-white py-24 px-16 flex xl:px-10 lg:px-5 justify-center">
 								<article className="text-center w-8/12 sm:w-full">
 									<h3 className="text-black font-Rock text-2xl mb-12  xl:text-lg lg:text-base md:text-xl xs:text-base">
@@ -88,8 +89,6 @@ const merchandising = () => {
 									</p>
 								</article>
 							</li>
-							<li className="bg-dark-100 py-16 md:py-64 px-16 "></li>
-							<li className="bg-dark-100 py-16 md:py-64 px-16 "></li>
 							<li className="bg-white py-32 px-16 xs:py-20 flex xl:px-10 lg:px-5 justify-center">
 								<article className="text-center w-8/12 sm:w-full">
 									<h3 className="text-black font-Rock text-2xl mb-12 xl:text-lg lg:text-base md:text-xl xs:text-base">
@@ -102,6 +101,7 @@ const merchandising = () => {
 									</p>
 								</article>
 							</li>
+							<li className="bg-dark-100 py-16 md:py-64 px-16 "></li>
 						</ul>
 					</section>
 				</>
