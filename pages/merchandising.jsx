@@ -3,16 +3,16 @@ import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Main from '../components/Main';
 
-const nosotros = () => {
+const merchandising = () => {
 	return (
 		<Layout>
 			<Header>
 				<div className="min-h-screen bg-white flex  justify-center items-center flex-col leading-none">
-					<h1 className="text-dark-100 font-black text-6xl sm:text-4xl xs:text-2xl sm:text-center">
-						PIENSA EN GRANDE
+					<h1 className="text-dark-100 font-black text-6xl sm:text-4xl xs:text-2xl md:text-4xl sm:text-center">
+						HAS QUE TE RECUERDEN.
 					</h1>
 					<p className="font-medium text-lg sm:text-center xs:text-base">
-						menos es más
+						Pero bien.
 					</p>
 				</div>
 			</Header>
@@ -110,4 +110,4 @@ const nosotros = () => {
 	);
 };
 
-export default nosotros;
+export default merchandising;
