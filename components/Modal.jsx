@@ -27,7 +27,7 @@ const Modal = () => {
 					</Link>
 				</li>
 				<li className="">
-					<Link href="/">
+					<Link href="/merchandising">
 						<a className="text-white text-6xl font-Roboto font-bold hover:text-greyy-400">
 							Merchandising
 						</a>
