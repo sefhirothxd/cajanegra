@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Modal = () => {
 	return (
-		<div className="fixed left-0 top-0 w-full h-full bg-dark-100 z-10 flex items-end pl-20 pb-10  transition-all ease-in-out scale-95  duration-500">
+		<div className="fixed left-0 top-0 w-full h-full bg-dark-100 z-20 flex items-end pl-20 pb-10  transition-all ease-in-out scale-95  duration-500">
 			<ul className="">
 				<li className="">
 					<Link href="/">

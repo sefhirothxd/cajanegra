@@ -7,7 +7,7 @@ const Header = (props) => {
 	return (
 		<>
 			<div
-				className="fixed right-0 top-0 pt-6 pr-6 z-20"
+				className="fixed right-0 top-0 pt-6 pr-6 z-30"
 				onClick={() => {
 					setModal(!modal);
 				}}

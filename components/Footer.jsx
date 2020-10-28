@@ -4,23 +4,23 @@ import Link from 'next/link';
 const Footer = () => {
 	return (
 		<div>
-			<div className="flex flex-col items-center pb-16 pt-12 px-4">
+			<div className="flex flex-col items-center py-24 px-4">
 				<div className="flex flex-col items-center justify-between mb-5">
-					<h2 className="text-dark-100 font-inter-Roboto font-black text-5xl sm:text-3xl md:text-4xl">
+					<h2 className="text-dark-200 font-inter mb-6 font-black text-4xl sm:text-2xl md:text-3xl">
 						CONTÁCTENOS
 					</h2>
-					<p className="text-dark-100 font-inter-Roboto font-medium text-base sm:text-xs sm:text-center md:text-sm">
+					<p className="text-light-200 font-bad font-medium text-xl  sm:text-base sm:text-center md:text-lg">
 						Hacemos grander cosas para las marcas que amamos y nos encantaria
 						amarte a ti también.
 					</p>
 				</div>
 				<div className="flex  justify-items-center">
-					<button className="bg-dark-100 py-2 px-16 rounded-lg text-3xl md:text-2xl sm:text-xl text-white font-black">
+					<button className="bg-dark-200 py-3 px-12 rounded-sm text-xl md:text-xl sm:text-lg text-white font-black">
 						DI HOLA
 					</button>
 				</div>
 			</div>
-			<div className="flex justify-center bg-dark-100 items-center py-24 ">
+			<div className="flex justify-center bg-dark-200 items-center py-24 ">
 				<ul className="flex	justify-center  text-white font-black xs:flex-col xs:items-center">
 					<li className="mr-10 sm:mr-5 xs:mb-2">
 						<Link href="/">

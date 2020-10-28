@@ -23,9 +23,11 @@ module.exports = {
             },
             light: {
                 100: '#E5E5E5',
+                200: '#888888',
             },
             dark: {
-                100: '#050826',
+                100: '#333333',
+                200: '#111111',
             },
             sand: '#ECABA9',
             red: 'red',
@@ -58,6 +60,8 @@ module.exports = {
             Rock: 'Rock Salt , cursive',
 
             Roboto: 'Roboto, sans-serif',
+
+            bad: 'Bad Script, cursive',
         },
         extend: {
             boxShadow: {

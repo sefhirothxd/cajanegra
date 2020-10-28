@@ -9,10 +9,10 @@ const nuestrotrabajo = () => {
 			<Header>
 				<div className="min-h-screen bg-white flex  justify-center items-center flex-col leading-none">
 					<article className="flex  justify-center items-center flex-col mb-10">
-						<h1 className="text-dark-100 font-black text-6xl sm:text-4xl xs:text-2xl sm:text-center mb-2">
+						<h1 className="text-dark-100 font-black text-6xl  sm:text-4xl xs:text-2xl sm:text-center mb-2">
 							Work Flow
 						</h1>
-						<p className="font-medium text-lg sm:text-center xs:text-xs">
+						<p className="font-medium text-lg sm:text-center  xs:text-xs">
 							El secreto esta en saber escuchar, somos buenos en eso!
 						</p>
 					</article>
