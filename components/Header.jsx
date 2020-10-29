@@ -6,23 +6,29 @@ const Header = (props) => {
 
 	return (
 		<>
-			<div
-				className="fixed right-0 top-0 pt-6 pr-6 z-30"
-				onClick={() => {
-					setModal(!modal);
-				}}
-			>
-				{modal ? (
-					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAABmJLR0QA/wD/AP+gvaeTAAAApElEQVRIie2VQQrEIAxF6xxCg1dMjitET5NZCC6GjkYbYQZ8Kymf/2ob2+s6HP4XRAQATRIAEHGunYhEhJmHDgBgZhEhogmB9z6lJCKllBjjt1gIocZyzp3YouNR+9Bh0N5xmLXfOozbK21UmLktlEOspe1j9t5fypxz7nZtw95H9PFWlWdwsb1eNHN0JtLAMZz3Rw7laVp3bP9cX7t/OIfDT/EGq9X6v7GMbkAAAAAASUVORK5CYII="></img>
-				) : (
-					<img
-						className="w-8"
-						alt="svgImg"
-						src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzIiIGhlaWdodD0iMzIiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSIjMzMzMzMzIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTE3LjIsNDAuMTMzMzNjLTIuMDY3NjUsLTAuMDI5MjQgLTMuOTkwODcsMS4wNTcwOSAtNS4wMzMyMiwyLjg0M2MtMS4wNDIzNiwxLjc4NTkyIC0xLjA0MjM2LDMuOTk0NzQgMCw1Ljc4MDY2YzEuMDQyMzYsMS43ODU5MiAyLjk2NTU4LDIuODcyMjUgNS4wMzMyMiwyLjg0M2gxMzcuNmMyLjA2NzY1LDAuMDI5MjQgMy45OTA4NywtMS4wNTcwOSA1LjAzMzIyLC0yLjg0M2MxLjA0MjM2LC0xLjc4NTkyIDEuMDQyMzYsLTMuOTk0NzQgMCwtNS43ODA2NmMtMS4wNDIzNiwtMS43ODU5MiAtMi45NjU1OCwtMi44NzIyNSAtNS4wMzMyMiwtMi44NDN6TTE3LjIsODAuMjY2NjdjLTIuMDY3NjUsLTAuMDI5MjQgLTMuOTkwODcsMS4wNTcwOSAtNS4wMzMyMiwyLjg0M2MtMS4wNDIzNiwxLjc4NTkyIC0xLjA0MjM2LDMuOTk0NzQgMCw1Ljc4MDY2YzEuMDQyMzYsMS43ODU5MiAyLjk2NTU4LDIuODcyMjUgNS4wMzMyMiwyLjg0M2gxMzcuNmMyLjA2NzY1LDAuMDI5MjQgMy45OTA4NywtMS4wNTcwOSA1LjAzMzIyLC0yLjg0M2MxLjA0MjM2LC0xLjc4NTkyIDEuMDQyMzYsLTMuOTk0NzQgMCwtNS43ODA2NmMtMS4wNDIzNiwtMS43ODU5MiAtMi45NjU1OCwtMi44NzIyNSAtNS4wMzMyMiwtMi44NDN6TTE3LjIsMTIwLjRjLTIuMDY3NjUsLTAuMDI5MjQgLTMuOTkwODcsMS4wNTcwOSAtNS4wMzMyMiwyLjg0M2MtMS4wNDIzNiwxLjc4NTkyIC0xLjA0MjM2LDMuOTk0NzQgMCw1Ljc4MDY2YzEuMDQyMzYsMS43ODU5MiAyLjk2NTU4LDIuODcyMjUgNS4wMzMyMiwyLjg0M2gxMzcuNmMyLjA2NzY1LDAuMDI5MjQgMy45OTA4NywtMS4wNTcwOSA1LjAzMzIyLC0yLjg0M2MxLjA0MjM2LC0xLjc4NTkyIDEuMDQyMzYsLTMuOTk0NzQgMCwtNS43ODA2NmMtMS4wNDIzNiwtMS43ODU5MiAtMi45NjU1OCwtMi44NzIyNSAtNS4wMzMyMiwtMi44NDN6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4="
-					/>
-				)}
-			</div>
-
+			{modal ? (
+				<div
+					className="fixed right-0 top-0 mt-6 mr-6 z-30 cursor-pointer h-10 w-10  bg-dark-100 flex justify-end items-center"
+					onClick={() => {
+						setModal(false);
+					}}
+				>
+					<div className="text-white w-full text-3xl h-10 text-center pt-0">
+						x
+					</div>
+				</div>
+			) : (
+				<div
+					className="fixed right-0 top-0 mt-6 mr-6 z-30 cursor-pointer h-10 w-10 bg-dark-100 flex flex-col justify-center items-center"
+					onClick={() => {
+						setModal(true);
+					}}
+				>
+					<div className="bg-white w-5/12 h-1.2 mb-1.5"></div>
+					<div className="bg-white w-5/12 h-1.2  mb-1.5"></div>
+					<div className="bg-white w-5/12 h-1.2 "></div>
+				</div>
+			)}
 			{modal ? <Modal /> : null}
 			{props.children}
 		</>
