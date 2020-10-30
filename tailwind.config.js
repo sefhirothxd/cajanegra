@@ -26,6 +26,10 @@ module.exports = {
             '14xl': '6.25rem',
             '15xl': '6.5rem',
             '16xl': '6.875rem',
+            '17xl': '7rem',
+            '18xl': '7.125rem',
+            '19xl': '7.25rem',
+            '20xl': '7.5rem',
         },
         colors: {
             primaryy: {
@@ -92,6 +96,7 @@ module.exports = {
             fondoPageMain: '#E5E5E5',
             modalFondo: '#231F20',
             botonModal: '#ff3363',
+            fondoCard: '#F8F8F8',
         },
         fontFamily: {
             inter: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
