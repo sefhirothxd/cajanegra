@@ -97,6 +97,7 @@ module.exports = {
             modalFondo: '#231F20',
             botonModal: '#ff3363',
             fondoCard: '#F8F8F8',
+            fondoEquipoCard: '#404040',
         },
         fontFamily: {
             inter: 'system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"',
@@ -110,6 +111,15 @@ module.exports = {
             bad: 'Bad Script, cursive',
         },
         extend: {
+            gridTemplateRows: {
+                // Simple 8 row grid
+                //   '8': 'repeat(8, minmax(0, 1fr))',
+
+                // Complex site-specific row configuration
+                661: '661px minmax(661px, 1fr)',
+                915: 'minmax(915px, 1fr)',
+            },
+
             boxShadow: {
                 outline: '0 0 0 2px #f582ae',
             },
@@ -185,6 +195,7 @@ module.exports = {
                 103: '25.75rem',
                 104: '26rem',
                 128: '32rem',
+                559: '59rem',
             },
             width: {
                 '1/0': '10%',
@@ -200,6 +211,15 @@ module.exports = {
                 '2/9': '29%',
                 '3/0': '30%',
                 '4/0': '40%',
+                '4/1': '41%',
+                '4/2': '42%',
+                '4/3': '43%',
+                '4/4': '44%',
+                '4/5': '45%',
+                '4/6': '46%',
+                '4/7': '47%',
+                '4/8': '48%',
+                '4/9': '49%',
                 '5/0': '50%',
                 '5/1': '51%',
                 '5/2': '52%',

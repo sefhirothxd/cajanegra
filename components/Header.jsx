@@ -8,12 +8,12 @@ const Header = (props) => {
 	return (
 		<div className="relative">
 			<Link href="/">
-				<figure className="md:hidden absolute pb-5 z-30 left-0 top-0 mt-5 ml-8 cursor-pointer">
+				<figure className="md:hidden absolute pb-5 z-20 left-0 top-0 mt-5 ml-8 cursor-pointer">
 					<img src="./logo_cajanegra.png" alt="" />
 				</figure>
 			</Link>
 			<Link href="/">
-				<figure className="hidden md:block absolute z-30 pb-5 left-0 top-0 mt-5 ml-8 cursor-pointer">
+				<figure className="hidden md:block absolute z-20 pb-5 left-0 top-0 mt-5 ml-8 cursor-pointer">
 					<img src="./logo_corto.png" alt="" />
 				</figure>
 			</Link>
