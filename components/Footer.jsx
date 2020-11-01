@@ -5,24 +5,24 @@ const Footer = () => {
 	return (
 		<div>
 			<div className="flex justify-center flex-col relative bg-dark-300 items-center py-24 ">
-				<div className="mb-18">
-					<h3 className="text-light-200 italic">
+				<div className="mb-18 sm:text-center sm:px-4">
+					<h3 className="text-light-200 italic xs:leading-6">
 						Cattivation (n): cualquier activación que implique el uso de un
 						gato.
 					</h3>
 				</div>
-				<ul className="flex	justify-center  text-white font-black xs:flex-col xs:items-center mb-16 ">
-					<li className="mr-13 sm:mr-5 xs:mb-2">
+				<ul className="flex	justify-center  text-white font-black xs:flex-col xs:items-center mb-16 uppercase ">
+					<li className="mr-13 sm:mr-5 xs:mr-0  xs:mb-8">
 						<Link href="/">
 							<a className="text-base sm:text-sm">Inicio</a>
 						</Link>
 					</li>
-					<li className="mr-13 sm:mr-5 xs:mb-2">
+					<li className="mr-13 sm:mr-5 xs:mr-0 xs:mb-8">
 						<Link href="/nosotros">
 							<a className="text-base sm:text-sm">Nosotros</a>
 						</Link>
 					</li>
-					<li className="mr-13 sm:mr-5 xs:mb-2">
+					<li className="mr-13 sm:mr-5 xs:mr-0  xs:mb-8">
 						<Link href="/nuestrotrabajo">
 							<a className="text-base sm:text-sm">Nuestro Trabajo</a>
 						</Link>

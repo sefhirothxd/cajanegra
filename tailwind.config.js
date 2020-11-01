@@ -116,6 +116,8 @@ module.exports = {
                 //   '8': 'repeat(8, minmax(0, 1fr))',
 
                 // Complex site-specific row configuration
+
+                524: '524px minmax(524px, 1fr)',
                 661: '661px minmax(661px, 1fr)',
                 915: 'minmax(915px, 1fr)',
             },

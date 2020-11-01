@@ -44,10 +44,17 @@ const Modal = () => {
 							</a>
 						</Link>
 					</li>
-					<li className="mb-5">
+					{/* <li className="mb-5">
 						<Link href="/merchandising">
 							<a className="text-white font-Roboto font-bold hover:text-greyy-400">
 								Merchandising
+							</a>
+						</Link>
+					</li> */}
+					<li className="mb-5">
+						<Link href="/nuestroequipo">
+							<a className="text-white font-Roboto font-bold hover:text-greyy-400">
+								Nuestro equipo
 							</a>
 						</Link>
 					</li>
