@@ -28,7 +28,7 @@ const nuestroequipo = () => {
 					</div>
 					<div className="w-full pt-30 pb-8 px-5">
 						<ul className="flex justify-center items-center text-lg flex-wrap text-light-200 italic text-center">
-							<li className="mr-10 mb-3 md:text-base ">Todos</li>
+							<li className="mr-10 mb-3 md:text-base font-bold">Todos</li>
 							<li className="mr-10 mb-3 md:text-base ">Cuentas</li>
 							<li className="mr-10 mb-3 md:text-base ">Copiar</li>
 							<li className="mr-10 mb-3 md:text-base ">Creativo</li>
