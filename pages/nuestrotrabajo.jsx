@@ -5,14 +5,22 @@ import Main from '../components/Main';
 
 const nuestrotrabajo = () => {
 	const [screen, setScreen] = useState(false);
+	const [barFix, setBarFix] = useState(false);
 
 	useEffect(() => {
 		const updateWindowDimensions = () => {
 			const ancho = window.innerWidth;
+
 			ancho < 881 ? setScreen(true) : setScreen(false);
+		};
+		const altura = () => {
+			const alto = window.pageYOffset;
+
+			alto > 881 ? setBarFix(true) : setBarFix(false);
 		};
 
 		window.addEventListener('resize', updateWindowDimensions);
+		window.addEventListener('scroll', altura);
 
 		return () => window.removeEventListener('resize', updateWindowDimensions);
 	});
@@ -38,11 +46,17 @@ const nuestrotrabajo = () => {
 							actuales o navegue por cuenta.
 						</p>
 					</article>
-					<div className="absolute bottom-0 flex items-center text-3xl xs:text-sm sm:text-lg xl:pl-12 xs:pl-5 pb-10 left-0 w-full pl-10.865">
+					<div
+						className={
+							barFix
+								? ' fixed top-0 pt-5 bg-dark-200 text-white flex items-center text-3xl xs:text-sm sm:text-lg xl:pl-12 xs:pl-5 pb-8 w-full pl-10.865 z-20'
+								: 'absolute bottom-0 flex items-center text-3xl xs:text-sm sm:text-lg xl:pl-12 xs:pl-5 pb-10 left-0 w-full pl-10.865'
+						}
+					>
 						<p className=" text-white pl-5 sm:pl-0 font-black mr-1">Salta a</p>
 						<select
 							name="select"
-							className="pr-2.1 md:pr-3.1 pt-1.2 outline-none border-b-2 hover:text-light-200 cursor-pointer text-white font-black border-white bg-transparent"
+							className="pr-2.1 md:pr-3.1 pt-1.2 outline-none border-b-2 xs:pr-10 hover:text-light-200 cursor-pointer text-white font-black border-white bg-transparent"
 						>
 							<option className="" value="uncliente" selected>
 								un cliente
