@@ -2,7 +2,15 @@ module.exports = {
     theme: {
         opacity: {
             '09': '.09',
+            15: '0.15',
+            18: '0.18',
+            20: '0.20',
+            30: '0.30',
+            40: '0.40',
+            50: '0.50',
+            60: '0.60',
         },
+
         fontSize: {
             xs: '.75rem',
             sm: '.875rem',
@@ -138,6 +146,21 @@ module.exports = {
             bad: 'Bad Script, cursive',
         },
         extend: {
+            animation: {
+                probando: 'probando 1s ',
+            },
+            keyframes: {
+                probando: {
+                    '0%, 100%': {
+                        transform: 'translateX (-25%)',
+                        animationTimingFunction: 'cubic-bezier(0.4, 0, 1, 1)',
+                    },
+                    '50%': {
+                        transform: 'translateX(50%)',
+                        animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)',
+                    },
+                },
+            },
             gridTemplateRows: {
                 // Simple 8 row grid
                 //   '8': 'repeat(8, minmax(0, 1fr))',
@@ -153,14 +176,28 @@ module.exports = {
                 outline: '0 0 0 2px #f582ae',
             },
             spacing: {
+                10.95: 'calc(100vw - 95%)',
+                10.94: 'calc(100vw - 94%)',
+                10.93: 'calc(100vw - 93%)',
+                10.92: 'calc(100vw - 92%)',
+                10.91: 'calc(100vw - 91%)',
                 10.9: 'calc(100vw - 90%)',
+                10.89: 'calc(100vw - 89%)',
+                10.88: 'calc(100vw - 88%)',
+                10.875: 'calc(100vw - 87.5%)',
+                10.87: 'calc(100vw - 87%)',
+                10.865: 'calc(100vw - 86.5%)',
+                10.86: 'calc(100vw - 86%)',
+                10.855: 'calc(100vw - 85.5%)',
                 10.85: 'calc(100vw - 85%)',
+                10.8: 'calc(100vw - 80%)',
                 10.1: '100%',
                 88.1: '882px',
                 5.1: '50%',
                 4.1: '40%',
                 3.1: '30%',
-                3.8: '38%',
+                2.1: '20%',
+                1.1: '10%',
                 1.1: '1px',
                 1.2: '2px',
                 1.3: '3px',

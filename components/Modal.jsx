@@ -4,7 +4,7 @@ import Bcolores from '../public/barradecolores.svg';
 
 const Modal = () => {
 	return (
-		<div className="fixed left-0 top-0 w-full h-full overflow-auto bg-modalFondo z-20 flex flex-col justify-between  transition-all ease-in-out scale-95  duration-500">
+		<div className="fixed left-0 top-0 w-full animate-probando h-full overflow-auto bg-modalFondo z-20 flex flex-col justify-between">
 			<Link href="/">
 				<figure className="sm:hidden mt-5 ml-8 cursor-pointer">
 					<img src="./logo_cajanegra.png" alt="" />
